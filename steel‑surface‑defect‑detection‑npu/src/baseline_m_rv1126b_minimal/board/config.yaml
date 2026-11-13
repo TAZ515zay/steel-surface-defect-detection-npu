@@ -1,0 +1,14 @@
+camera_id: 23
+camera_device: /dev/video31
+camera_width: 640
+camera_height: 480
+model_path: ./best.rknn
+tpes: 1
+obj_thresh: 0.03
+nms_thresh: 0.45
+img_size: 640
+classes: ["crazing", "inclusion", "patches", "pitted_surface", "rolled-in_scale", "scratches"]
+fps_interval: 30
+save_interval: 30
+output_prefix: result
+display_enabled: false
